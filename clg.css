@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(215, 231, 244);
+}
+
+.abc
+{
+    
+    background-color: rgb(29, 101, 152);
+
+}
+.abc1
+    {
+
+        float:left;
+       
+    }
+   img{
+    float: right;
+   }
+   h3
+   {
+    color: white;
+    font-weight: normal;
+   }
+   h1{
+    color: rgb(13, 66, 94);
+   }
+   h2{
+    color: rgb(13, 66, 94);
+    font-weight: 600;
+   }
+ul{
+    list-style: none;
+    background:  rgb(29, 101, 152);
+}
+ul li{
+    display: inline-block;
+    position:relative;
+    
+}
+ul li a{
+    display: block;
+    padding: 15px  15px;
+    color:#FFF;
+    text-decoration: none;
+    text-align:center;
+    font-size: 22px;
+    
+}
+ul li ul.dropdown
+{
+    width:111%;
+    background:  rgb(29, 101, 152);
+    position:absolute;
+    z-index: 999;
+    display: none;
+ 
+  
+}
+ul li a:hover{
+    background: rgb(29, 101, 152);
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+
+}
+a:hover
+{
+    text-decoration:underline;
+    color:aqua;
+}
+.main {
+    text-align:center;
+}
+.marq {
+    background-color:  rgb(54, 131, 186);
+    width:12cm;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+}
+.fff {
+    font-size:20px;
+    font-weight:unset;
+    color:black;
+    padding-bottom:20px;
+    text-align:center;
+}
+hr{
+    border-color: grey;
+}
+
+table {
+    border:0px solid  rgb(54, 131, 186);
+    color:white;
+  }
+  thead,th{
+   background-color:  rgb(29, 101, 152);
+    font-size:larger;
+    font-weight:bold;
+    color:white;
+  }
+  tr,td{
+    border:0.1px solid  rgb(54, 131, 186);
+    font-size:large;
+    color: black;
+    font-weight:initial;
+  }
+  a{
+    text-decoration:none ;
+    color: black;
+   
+  }
+  h5{
+    font-size:large;
+    font-weight:initial;
+    text-align:justify;
+  }
+  .btn
+{
+    height:1cm;
+    width:8.8cm;
+    shape-outside: padding-box;
+    border-radius: 5px;
+    background-color: rgb(29, 101, 152);
+    font-size:medium;
+    position:absolute;
+    color: white;
+    font-weight:bold;
+    cursor: pointer;
+    border: none;
+    text-align:left;
+    
+}
+.btn1
+{
+    height: 1.1cm;
+    width:10cm;
+    shape-outside: padding-box;
+    border-radius: 5px;
+    background-color: rgb(29, 101, 152);
+    font-size: large;
+    position:absolute;
+    color: white;
+    font-weight:bold;
+    cursor: pointer;
+    border: none;
+    text-align:left;
+  
+    
+}
